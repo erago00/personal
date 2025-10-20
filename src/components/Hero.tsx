@@ -1,4 +1,5 @@
 import { ArrowRight, Sparkles, Github, Linkedin, Mail } from 'lucide-react';
+import headshot from '../assets/headshot.jpg';
 
 export default function Hero() {
   const scrollToSection = (id) => {
@@ -91,8 +92,12 @@ export default function Hero() {
             {/* Image container */}
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/30 to-blue-600/30 rounded-full blur-xl"></div>
-              <div className="relative rounded-full w-80 h-80 lg:w-96 lg:h-96 bg-gradient-to-br from-slate-800 to-slate-700 border-4 border-blue-400/20 shadow-2xl shadow-blue-500/20 flex items-center justify-center text-blue-200/50 hover:-translate-y-2 transition-transform duration-300 backdrop-blur-sm">
-                <p className="text-center px-8">Your professional headshot here</p>
+              <div className="relative rounded-full w-80 h-80 lg:w-96 lg:h-96 border-4 border-blue-400/20 shadow-2xl shadow-blue-500/20 hover:-translate-y-2 transition-transform duration-300 backdrop-blur-sm overflow-hidden">
+                <img
+                  src={headshot}
+                  alt="Mathijs Schaepdryver"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
