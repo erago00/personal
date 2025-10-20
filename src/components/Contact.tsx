@@ -42,11 +42,11 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-white mb-1">Email</h3>
-                  <a 
-                    href="mailto:your.email@example.com"
+                  <a
+                    href="mailto:mathijs.schaepdryver@gmail.com"
                     className="text-slate-300 hover:text-blue-400 transition-colors"
                   >
-                    your.email@example.com
+                    mathijs.schaepdryver@gmail.com
                   </a>
                 </div>
               </div>
@@ -78,7 +78,7 @@ export default function Contact() {
                   <Github className="h-5 w-5" />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/mathijs-schaepdryver-356586292"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-slate-800/70 backdrop-blur-sm border border-blue-500/20 rounded-lg flex items-center justify-center text-blue-300 hover:bg-blue-600 hover:text-white hover:border-blue-400/40 transition-all hover:-translate-y-1 shadow-lg hover:shadow-blue-500/30"
@@ -86,7 +86,7 @@ export default function Contact() {
                   <Linkedin className="h-5 w-5" />
                 </a>
                 <a
-                  href="mailto:your.email@example.com"
+                  href="mailto:mathijs.schaepdryver@gmail.com"
                   className="w-12 h-12 bg-slate-800/70 backdrop-blur-sm border border-blue-500/20 rounded-lg flex items-center justify-center text-blue-300 hover:bg-blue-600 hover:text-white hover:border-blue-400/40 transition-all hover:-translate-y-1 shadow-lg hover:shadow-blue-500/30"
                 >
                   <Mail className="h-5 w-5" />

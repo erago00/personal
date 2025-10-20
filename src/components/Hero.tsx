@@ -63,9 +63,9 @@ export default function Hero() {
             >
               <Github className="h-5 w-5 text-blue-200 group-hover:text-white transition-colors" />
             </a>
-            <a 
-              href="www.linkedin.com/in/mathijs-schaepdryver-356586292" 
-              target="_blank" 
+            <a
+              href="https://www.linkedin.com/in/mathijs-schaepdryver-356586292"
+              target="_blank"
               rel="noopener noreferrer"
               className="group p-3 rounded-full bg-slate-800/70 backdrop-blur-sm border border-blue-500/20 shadow-md hover:shadow-lg hover:shadow-blue-500/30 hover:bg-blue-600 transition-all hover:-translate-y-1"
             >
