@@ -46,7 +46,7 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-blue-500/20 text-center">
           <p className="flex items-center justify-center gap-2 text-slate-400">
-            Made with <Heart className="h-4 w-4 text-blue-400 fill-blue-400" /> © {currentYear} Mathijs Schaepdryver
+            © {currentYear} Mathijs Schaepdryver
           </p>
         </div>
       </div>
